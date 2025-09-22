@@ -7,18 +7,22 @@
 1. Ветров Иван Павлович
 
 **Изученные команды**
-git clone [url] – копирует удалённый репозиторий на локальный компьютер.
+git clone	Клонирование удаленного репозитория	git clone https://github.com/...
 
-git status – показывает состояние рабочего каталога и проиндексированных файлов.
+git status	Показать состояние рабочего каталога	git status
 
-git add [file] – добавляет файл в индекс (staging area) для последующего коммита.
+git add	Добавить файлы в индекс	git add myfile.txt
 
-git commit -m "message" – создаёт коммит с заиндексированными изменениями и комментарием.
+git commit	Зафиксировать изменения в истории	git commit -m "message"
 
-git push origin [branch-name] – отправляет локальные коммиты в удалённую ветку.
+git push	Отправить commits на удаленный сервер	git push origin branch-name
 
-git log – показывает историю коммитов.
+git pull	Забрать обновления с удаленного сервера	git pull origin main
 
-git branch – показывает список веток.
+git checkout	Переключиться на ветку или коммит	git checkout -b new-branch
 
-git checkout [branch-name] – переключается на указанную ветку.
+git branch	Работа с ветками (показать, создать, удалить)	git branch
+
+git log	Показать историю коммитов	git log --oneline
+
+git revert	Создать новый коммит, отменяющий изменения указанного коммита	git revert abc123
