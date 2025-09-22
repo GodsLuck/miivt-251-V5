@@ -5,3 +5,15 @@
 
 **Состав команды:**
 1. Ветров Иван Павлович
+
+**Изученные команды**
+git clone	Клонирование удаленного репозитория	git clone https://github.com/...
+git status	Показать состояние рабочего каталога	git status
+git add	Добавить файлы в индекс	git add VIP.txt
+git commit	Зафиксировать изменения в истории	git commit -m "message"
+git push	Отправить commits на удаленный сервер	git push origin branch-name
+git pull	Забрать обновления с удаленного сервера	git pull origin main
+git checkout	Переключиться на ветку или коммит	git checkout -b new-branch
+git branch	Работа с ветками (показать, создать, удалить)	git branch
+git log	Показать историю коммитов	git log --oneline
+git revert	Создать новый коммит, отменяющий изменения указанного коммита	git revert abc123
